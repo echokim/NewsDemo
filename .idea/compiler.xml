@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Newseditms" />
+        <module name="Newsmapper" />
+        <module name="Newspojo" />
+        <module name="Newsqueryms" />
+        <module name="Newsserver" />
+        <module name="NewsZuul" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="NewsZuul" options="-parameters" />
+      <module name="Newseditms" options="-parameters" />
+      <module name="Newsmapper" options="-parameters" />
+      <module name="Newspojo" options="-parameters" />
+      <module name="Newsqueryms" options="-parameters" />
+      <module name="Newsserver" options="-parameters" />
+    </option>
+  </component>
+</project>

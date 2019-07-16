@@ -6,6 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="News-edit-ms" />
+        <module name="News-mapper" />
+        <module name="News-pojo" />
+        <module name="News-query-ms" />
+        <module name="News-server" />
+        <module name="News-Zuul" />
         <module name="Newseditms" />
         <module name="Newsmapper" />
         <module name="Newspojo" />
@@ -17,6 +23,12 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="News-Zuul" options="-parameters" />
+      <module name="News-edit-ms" options="-parameters" />
+      <module name="News-mapper" options="-parameters" />
+      <module name="News-pojo" options="-parameters" />
+      <module name="News-query-ms" options="-parameters" />
+      <module name="News-server" options="-parameters" />
       <module name="NewsZuul" options="-parameters" />
       <module name="Newseditms" options="-parameters" />
       <module name="Newsmapper" options="-parameters" />
